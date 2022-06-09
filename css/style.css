@@ -33,12 +33,17 @@ footer{
     body{
         width: 70%;
     }
+    div{
+        padding: 10px;
+    }
     main{
         grid-template-columns: 1fr;
     }
     .sibling{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
     }
     footer{
         grid-template-columns: 1fr;
