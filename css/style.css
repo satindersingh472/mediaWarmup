@@ -1,0 +1,46 @@
+/* header section */
+body{
+    display: grid;
+width: 100%;
+    margin: auto;
+}
+header{
+    width: 100%;
+    display: grid;
+    place-items: center ;
+}
+#logo img{
+    height:40px;
+    width: 40px;
+}
+#page_link{
+    display: grid;
+}
+/* main section */
+main{
+    display: grid;
+    width: 100%;
+    place-items: center;
+}
+/* Footer section */
+footer{
+    display: grid;
+    width:100%;
+    place-items: center;
+}
+/* media query for tablet sizes */
+@media only screen and (min-width:600px){
+    body{
+        width: 70%;
+    }
+    main{
+        grid-template-columns: 1fr;
+    }
+    .sibling{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    footer{
+        grid-template-columns: 1fr;
+    }
+}
